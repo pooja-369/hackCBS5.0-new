@@ -219,7 +219,6 @@ section#counter-stats {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-  background-color: ;
 }
 .stats {
   text-align: center;
@@ -285,7 +284,7 @@ section#counter-stats {
 .card-image img {
 }
 .card-content {
-  .float: right;
+  float: right;
 }
 .card-content h3 {
   font-size: 30px;
@@ -332,9 +331,11 @@ a {
 .clr-white {
   color: white;
 }
-.clr-black {
-  color: black;
+
+.clr-dark {
+  color: #1f2631;
 }
+
 .glimpse-title {
   font-family: Montserrat, sans-serif;
   line-height: 1.2;
@@ -809,7 +810,7 @@ a {
 #whatsapp:hover {
   background-color: #555;
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .title-sponsor img {
     width: 50%;
   }
@@ -1007,7 +1008,7 @@ a {
     font-size: 1.5rem;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .home-button1 {
     float: none;
   }
@@ -1199,9 +1200,26 @@ a {
   font-weight: 500;
   float: right;
 }
-#schedule {
-  background-color: rgb(240, 245, 250);
+
+
+/****************SCHEDULE*********************/
+
+#schedule{
+  background-color: #1f2631;
 }
+
+.schedule{
+  width: 100%;
+  display: none;
+}
+
+.schedule-laptop{
+  width: 100%;
+}
+
+/*******************/
+
+
 .author-info {
   font-family: 'Montserrat', sans-serif;
 }
@@ -1238,7 +1256,17 @@ a {
   float: right;
   line-height: 3.5rem;
 }
-@media only screen and (max-width: 768px) {
+
+@media screen and (max-width: 924px) {
+  .schedule{
+    display: block;
+  }
+  .schedule-laptop{
+      display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .workshop-btn {
     padding: 5px;
   }

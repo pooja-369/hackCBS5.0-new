@@ -5,7 +5,7 @@
 
 .progress { 
   position: fixed; 
-  top: 92px; 
+  top: 108px; 
   left: 0; 
   height: 6px; 
   /* background: rgb(175, 103, 226); */
@@ -19,14 +19,14 @@
 /************************ Banner ****************************/
 
 .home_container {
-  width: 100%;
+  width: 100vw;
   /* height: 100vh; */
   background: rgba(31, 38, 49, 0.9);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding-top:12rem;
+  padding-top:16rem;
 }
 
 .banner-parallax{
@@ -40,19 +40,12 @@
   background-size: cover;
 }
 
-.home_main-text {
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  margin-top: 2%;
-}
-
 .home_hackCBS>h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14vw;
-  line-height: 230px;
+  /* line-height: 230px; */
   color: #F8F5FF;
 }
 
@@ -62,9 +55,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 3vw;
-  line-height: 43px;
+  /* line-height: 43px; */
   color: #F8F5FF;
-  margin-top: -35px;
+  margin-top: -80px;
   padding-left: 0.8rem;
 }
 
@@ -89,15 +82,15 @@
   font-size: 3rem;
   /* line-height: 47px; */
   color: #F8F5FF;
-  margin-top: 15%;
+  margin-top: 5rem;
 }
 
 .home_button-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 6rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 
 .home_date-container .fa-calendar{

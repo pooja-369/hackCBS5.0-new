@@ -30,7 +30,7 @@
 }
 
 .banner-parallax{
-  background-image: url("/assets/img/dark-bg-img.jpg") ;
+  background-image: url("../img/dark-bg-img.jpg") ;
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */

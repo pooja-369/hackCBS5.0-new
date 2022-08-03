@@ -1282,7 +1282,7 @@ a {
   }
 }
 #teams {
-  background-color: #d7ebff;
+  background-color: #1f2631 ;
 }
 #teams img {
   margin: 5px;
@@ -1292,12 +1292,13 @@ a {
   background-color: #faf4f0;
   margin: 2rem;
   padding: 1.5rem;
+  width: 75%;
   border-radius: 5px;
   box-shadow: 2px 2px 5px #888;
 }
 .team-box h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
   line-height: 2.5rem;
 }

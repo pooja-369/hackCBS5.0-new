@@ -10,7 +10,9 @@
   height: 6px; 
   /* background: rgb(175, 103, 226); */
   /* background-color: rgb(167, 85, 214); */
-  background: linear-gradient(65.7deg, #FC5FD9 9.76%, #A481EF 40.43%, #8D5DF5 87.38%); 
+  background: linear-gradient(65.7deg, #FC5FD9 9.76%, #A481EF 40.43%, #8D5DF5 87.38%);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   transition: all linear 0.1s; 
   min-width: 1%;
   z-index: 100;
@@ -106,7 +108,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  padding: 0.9rem 4rem;
+  padding: 1.2rem 3rem;
   color: #FFFFFF;
   /* background: linear-gradient(45deg, #f87bdd, #ff69de, #ee36ff, #b51afd, #891bff, #a824ff); */
   background: linear-gradient(92.48deg, #FC5FD9 0.26%, #8D5DF5 39.81%, rgba(141, 93, 245, 0.5) 91.19%);
@@ -124,7 +126,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
-  padding: 0.7rem 3rem;
+  padding: 0.95rem 2.6rem;
   color: #FFFFFF;
   background: #1F2631;
   border-radius: 12px;
@@ -158,6 +160,10 @@
   border-radius: 10px;
 }
 
+.banner-button-style:hover {
+  border-radius: 10px !important;
+}
+
 .banner-button-style:active{
   color: white;
 }
@@ -170,7 +176,7 @@
   opacity: 1;
 }
 
-.banner-button-style:after {
+button.banner-button-style:after {
   z-index: -1;
   content: '';
   position: absolute;
@@ -180,9 +186,10 @@
   left: 0;
   top: 0;
   border-radius: 10px;
+  transform: unset;
 }
 
-.button-register:after {
+button.button-register:after {
   background: transparent;
 }
 
@@ -274,8 +281,7 @@ section#counter-stats {
   float: left;
   border-radius: 10px;
 }
-.card-image img {
-}
+
 .card-content {
   float: right;
 }
@@ -305,10 +311,7 @@ section#counter-stats {
 .card-image2 {
   border-radius: 10px;
 }
-.card-image2 img {
-}
-.card-content2 {
-}
+
 .card-content2 h3 {
   font-size: 20px;
   margin-top: 5px;
@@ -1066,8 +1069,7 @@ a {
 #prizes {
   background-color: rgb(240, 245, 250);
 }
-.prizes {
-}
+
 .prize-card {
   margin: 10px;
   border-bottom-right-radius: 5px;
@@ -1342,7 +1344,7 @@ a {
   font-size: 1vw;
 }
 
-/* //////////////////////Media Queries////////////////////////////// */
+/* ************ Media Queries ************** */
 
 @media screen and (max-width:1227px) {
   .home_hackCBS>h1 {

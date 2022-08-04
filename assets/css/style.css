@@ -276,8 +276,7 @@ section#counter-stats {
   float: left;
   border-radius: 10px;
 }
-.card-image img {
-}
+
 .card-content {
   float: right;
 }
@@ -307,10 +306,7 @@ section#counter-stats {
 .card-image2 {
   border-radius: 10px;
 }
-.card-image2 img {
-}
-.card-content2 {
-}
+
 .card-content2 h3 {
   font-size: 20px;
   margin-top: 5px;
@@ -1040,8 +1036,7 @@ a {
 #prizes {
   background-color: rgb(240, 245, 250);
 }
-.prizes {
-}
+
 .prize-card {
   margin: 10px;
   border-bottom-right-radius: 5px;

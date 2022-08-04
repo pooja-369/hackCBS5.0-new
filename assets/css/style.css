@@ -10,7 +10,9 @@
   height: 6px; 
   /* background: rgb(175, 103, 226); */
   /* background-color: rgb(167, 85, 214); */
-  background: linear-gradient(65.7deg, #FC5FD9 9.76%, #A481EF 40.43%, #8D5DF5 87.38%); 
+  background: linear-gradient(65.7deg, #FC5FD9 9.76%, #A481EF 40.43%, #8D5DF5 87.38%);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   transition: all linear 0.1s; 
   min-width: 1%;
   z-index: 100;
@@ -1314,7 +1316,7 @@ a {
   font-size: 1vw;
 }
 
-//////////////////////Media Queries//////////////////////////////
+/* ************ Media Queries ************** */
 
 @media screen and (max-width:1227px) {
   .home_hackCBS>h1 {
